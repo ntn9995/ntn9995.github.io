@@ -5,4 +5,16 @@
  */
 
 module.exports = {
+  siteMetadata: {
+    title: "Ngoc Nguyen's personal site"
+  },
+  plugins: [
+    {
+      resolve: `gatsby-source-filesystem`,
+      options: {
+        name: "src",
+        path: `${__dirname}/src/`
+      }
+    }
+  ]
 }
