@@ -1,8 +1,15 @@
 .container {
-    color: #b192e6
+    height: 20%;    
 }
 
 .container h1 {
-    font-size: 60px;
+    font-size: 6.4rem;
     font-family: 'Nanum Gothic Coding', monospace;
+    color: #b192e6
+}
+
+.container h3 {
+    font-size: 3.2rem;
+    font-family: 'Montserrat', sans-serif;
+    color: lavenderblush;
 }
