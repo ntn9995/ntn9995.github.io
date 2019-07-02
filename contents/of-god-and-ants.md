@@ -4,9 +4,6 @@ date: "2018-01-13"
 category: "blog"
 tags: ["short story", "horror"]
 ---
-
-### Of Gods and Ants
-
 Mr. Joe is a teacher.
 
 Mr. Joe wakes up at 6:30 every morning, spends 30 minutes brushing his teeth, shitting, shaving and showering, sometimes in that order. Then, Mr. Joe eats his breakfast, usually cereal and milk, or, if he feels like working for it, PB and J. Then, Mr. Joe checks his phone for 5 minutes. That bitch ex wife of his is in Santorini with her husband. Then, Mr. J gets in his car, turns on the radio, drives past three blocks to Middleton middle school, parks in his assigned lot, gets out of the car, walks to the teacher’s building, walks to the mini kitchen, takes out his mug from the cupboard, presses the cappuccino button on the coffee machine, puts the mug under the valve, pours in some cream and sugar, stirs the mixture, takes a sip, walks to his cubicle, sits down, opens his bag, and pulls out the folder for today’s class.

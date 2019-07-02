@@ -4,8 +4,6 @@ date: "2019-05-25"
 category: "blog"
 tags: ["poetry"]
 ---
-### Before The Leaves Turned Red
-
 The day before the leaves turned red,  
 I swore as I turned seventeen  
 To put a bullet through his head. 
