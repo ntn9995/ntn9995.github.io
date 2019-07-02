@@ -18,7 +18,7 @@ export default () => (
             <Link to="/" title="homepage">{home}</Link>
         </div>
         <div className={NavbarContainer.navLink}>
-            <Link to="/posts/" title="blog">{blog}</Link>
+            <Link to="/blog/" title="blog">{blog}</Link>
         </div>
     </div>
 )
