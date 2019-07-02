@@ -5,6 +5,7 @@ import Header from "../components/header"
 import MasterContainer from "../components/master-container"
 import BodyContainer from "../components/body-container"
 import Navbar from "../components/navbar"
+import Footer from "../components/footer"
 
 export default ({data}) => {
 
@@ -20,6 +21,7 @@ export default ({data}) => {
                     ))}    
                 </About>
             </BodyContainer>
+            <Footer/>
         </MasterContainer>
     )
 }
