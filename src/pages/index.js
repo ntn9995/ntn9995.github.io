@@ -1,20 +1,40 @@
 import React from "react"
+import {graphql} from "gatsby"
+import About from "../components/about"
 import Header from "../components/header"
 import MasterContainer from "../components/master-container"
 import BodyContainer from "../components/body-container"
+import Navbar from "../components/navbar"
 
-export default () => (
-    <MasterContainer>
-        <Header>
-            <h1>
-                Ngoc Nguyen (Tai)
-            </h1>
-        </Header>
-        <BodyContainer>
-            <p>
-            Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
-            </p>
-        </BodyContainer>
+export default ({data}) => {
+
+    return (
+        <MasterContainer>
+            <Header>
+                <Navbar/>
+            </Header>
+            <BodyContainer>
+                <About>
+                    {data.allMarkdownRemark.edges.map(({node}) => (
+                        <div key ={node.id} dangerouslySetInnerHTML={{__html: node.html}}/>
+                    ))}    
+                </About>
+            </BodyContainer>
+        </MasterContainer>
+    )
+}
+
+export const query = graphql `
+    query {
+        allMarkdownRemark(filter: {frontmatter: {title: {eq: "Hello"}}}) {
+          edges {
+            node {
+                id
+                html
+                excerpt
+            }
             
-    </MasterContainer>
-)
+          }
+        }
+      }
+`

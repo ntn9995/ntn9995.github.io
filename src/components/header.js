@@ -1,6 +1,6 @@
 import React from "react"
-import headerStyle from "./css_modules/header-container.module.css"
+import headerStyle from "./css_modules/header.module.css"
 
 export default ({children}) => (
-    <div className= {headerStyle.container}>{children}</div>
+    <div className= {headerStyle.header}>{children}</div>
 )

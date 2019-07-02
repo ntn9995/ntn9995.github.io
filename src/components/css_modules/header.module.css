@@ -1,0 +1,10 @@
+.header {
+    height: 20%;
+    margin: 14.4rem 0;
+}
+
+.header h1 {
+    font-size: 8rem;
+    font-family: 'Nanum Gothic Coding', monospace;
+    color: #b192e6
+}

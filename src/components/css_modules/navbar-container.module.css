@@ -1,0 +1,9 @@
+.navbarContainer {
+    display: grid;
+    grid-template-columns: 15% 15% auto 10% 10% 10% 
+}
+
+.navLink {
+    font-size: 2.4rem;
+    color: #5bbdf2;
+}
