@@ -13,6 +13,7 @@ export const queryAllPostsSummary = () => {
                         date
                       }
                       excerpt
+                      id
                     }
                   }
                 }
