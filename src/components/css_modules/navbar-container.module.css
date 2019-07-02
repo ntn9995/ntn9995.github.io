@@ -71,7 +71,7 @@
 .navLink {
     font-size: var(--main-font-size);
     color: var(--main-color);
-    float: right;
+    text-align: right;
 }
 
 .navLink a {
