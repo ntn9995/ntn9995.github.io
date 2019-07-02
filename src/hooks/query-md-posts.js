@@ -10,7 +10,7 @@ export const queryAllPostsSummary = () => {
                       frontmatter {
                         title
                         tags
-                        date
+                        date(formatString: "YYYY MMMM DD")
                       }
                       excerpt
                       id
