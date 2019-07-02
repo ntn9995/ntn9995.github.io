@@ -1,0 +1,22 @@
+.footerContainer {
+    display: inline-grid;
+    grid-template-columns: 15% 15% 15%;
+    --main-color: #5bbdf2;
+    --main-hover-color: #a1deff;
+    --main-font-size: 3.2rem;
+    width: 100%;
+    margin: 3rem auto
+}
+
+.footerLink {
+    font-size: var(--main-font-size);
+    color: var(--main-color)
+}
+
+.footerLink a {
+    color:  var(--main-color)
+}
+
+.footerLink a:hover {
+    color: var(--main-hover-color)
+}

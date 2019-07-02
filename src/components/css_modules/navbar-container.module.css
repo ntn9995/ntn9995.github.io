@@ -1,14 +1,77 @@
 .navbarContainer {
     display: grid;
-    grid-template-columns: 15% 15% auto 10% 10% 10%;
+    grid-template-columns: 50% 20% 15% 15%;
     --main-color: #5bbdf2;
     --main-hover-color: #a1deff;
-    --main-font-size: 2.4rem;
+    --main-font-size: 3.2rem;
+}
+
+.header {
+    font-size: 3.2rem;
+    color: var(--main-color);
+    -webkit-animation:colorchange 20s infinite alternate;
+}
+
+@-webkit-keyframes colorchange {
+    0% {
+      
+      color: var(--main-color);
+    }
+    
+    10% {
+      
+      color: #8e44ad;
+    }
+    
+    20% {
+      
+      color: #1abc9c;
+    }
+    
+    30% {
+      
+      color: #d35400;
+    }
+    
+    40% {
+      
+      color: var(--main-color);
+    }
+    
+    50% {
+      
+      color: lightpink;
+    }
+    
+    60% {
+      
+      color: var(--main-color);
+    }
+    
+    70% {
+      
+      color: #2980b9;
+    }
+    80% {
+   
+      color: #f1c40f;
+    }
+    
+    90% {
+   
+      color: #2980b9;
+    }
+    
+    100% {
+      
+      color: pink;
+    }
 }
 
 .navLink {
     font-size: var(--main-font-size);
-    color: var(--main-color)
+    color: var(--main-color);
+    float: right;
 }
 
 .navLink a {
