@@ -9,7 +9,7 @@ export default () => {
     return (
         <Layout>
             <div className={BlogListStyle.blogStyle}>
-                <h1>Journal</h1>
+                <h1>Posts</h1>
                 {edges.map(({node}) => (
                     <div key={node.id}>
                         <div className={BlogListStyle.blogList}>
