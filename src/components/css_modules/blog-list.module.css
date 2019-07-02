@@ -12,14 +12,20 @@
 }
 
 .blogList .tag {
-    color: cornflowerblue;
+    color: #be5de3;
     font-size: 1.6rem;
 }
 
 .blogList .date {
-    color: aliceblue;
+    color: #70bcff;
     font-size: 1.6rem;
     text-align: right;
+}
+
+.blogStyle .excerpt {
+    background: #525959;
+    padding: 0.4rem 1.6rem 0.2rem;
+    border-radius: 0.8rem;
 }
 
 .blogStyle h1 {

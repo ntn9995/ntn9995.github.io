@@ -23,9 +23,12 @@ export default () => {
                                 <div className={BlogListStyle.date}>{node.frontmatter.date}</div>
                             </div>
                         </div>
-                        <p>
-                            {node.excerpt}
-                        </p>
+                        <div className={BlogListStyle.excerpt}>
+                            <p>
+                                {node.excerpt}
+                            </p>
+                        </div>
+                        
                     </div>
                 ))}
             </div>
