@@ -11,7 +11,9 @@ export default () => (
             margin: "margin: 8rem 0"
         }}>
             <h1>
-                404 !!! （╯°□°）╯︵( .o.)
+                <span style= {{
+                    color: "#ff9869"
+                }}>404 !!!</span> （╯°□°）╯︵( .o.)
             </h1>
         </div>
     </Layout>
