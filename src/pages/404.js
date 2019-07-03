@@ -7,7 +7,8 @@ export default () => (
         <div style= {{
             fontSize: "3.2rem",
             margin: "3.2rem 0",
-            textAlign: "center"
+            textAlign: "center",
+            margin: "margin: 8rem 0"
         }}>
             <h1>
                 404 !!! （╯°□°）╯︵( .o.)
