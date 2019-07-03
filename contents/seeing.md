@@ -4,8 +4,6 @@ date: "2018-01-13"
 category: "blog"
 tags: ["short story", "horror"]
 ---
-![eye](https://cdn-images-1.medium.com/max/800/1*28XIFqF1uliL8kfQ2fYwLg.jpeg)
-
 I see people.
 
 They’re about the only things I can see, everything else is just a blur. My eyes actually work OK under perfect lighting conditions, but such conditions are rare now, aren’t they?

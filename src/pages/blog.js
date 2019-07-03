@@ -14,11 +14,11 @@ export default () => {
                 {edges.map(({node}) => (
                     <div key={node.id}>
                             <div className={BlogListStyle.blogList}>
-                                <Link to={node.fields.slug}>
-                                    <div className={BlogListStyle.metadata}>
+                                <div className={BlogListStyle.metadata}>
+                                    <Link to={node.fields.slug}>
                                         <h3>{node.frontmatter.title}</h3>
-                                    </div>
-                                </Link>
+                                    </Link>
+                                </div>
                                 <div className={BlogListStyle.metadata}>
                                     <div className={BlogListStyle.tag}>{node.frontmatter.tags[0]}</div>
                                 </div>

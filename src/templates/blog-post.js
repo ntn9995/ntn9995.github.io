@@ -13,7 +13,9 @@ export default ({ data }) => {
                 <h1>{post.frontmatter.title}</h1>
                 <div className={BlogPost.date}>by Ngoc Nguyen - {post.frontmatter.date}</div>
             </div>
-            <div className={BlogPost.postBody} dangerouslySetInnerHTML={{__html: post.html}} />
+            <div className={BlogPost.postBody}>
+                <div dangerouslySetInnerHTML={{__html: post.html}} />
+            </div>
         </Layout>
     )
 }
