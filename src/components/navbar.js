@@ -10,9 +10,7 @@ const blog = <FontAwesomeIcon icon={faBookOpen}></FontAwesomeIcon>
 export default () => (
     <div className={NavbarContainer.navbarContainer}>
         <div className={NavbarContainer.header} title="Totally static and professional logo here">
-        ̿̿(づ￣ ³￣)づ ~(˘▾˘~)
-        </div>
-        <div className={NavbarContainer.navLink}>
+        &lt;<span style={{color: "#ec7474"}}>script</span> src=<span style={{color: "#e8ef7f"}}>"./brain"</span>/&gt;
         </div>
         <div className={NavbarContainer.navLink}>
             <Link to="/" title="homepage">{home}</Link>
