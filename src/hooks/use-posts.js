@@ -12,6 +12,9 @@ export const usePosts = () => {
                       tags
                       date(formatString: "YYYY MMMM DD")
                     }
+                    fields {
+                      slug
+                    }
                     excerpt(format: MARKDOWN)
                     id
                   }

@@ -58,7 +58,7 @@ Mr. Joe stomps his way to the bookshelf, and removes the book numbered twenty se
 
 The room is large, and dark, and the only lights are the white flickerings from the triple monitor setup in the corner. Mr. Joe strides past a long row of large cylindrical capsules to the monitors. On the middle one, a video feed is running, showing an overhead view of the classroom: Tim, motionless. He turns to the left monitor.
 
-```
+```bash
 ----- Executing curiosity.exe -----
 ```
 
@@ -69,8 +69,8 @@ Subject currently experiencing values conflict, please reevaluate
 He types in the console.
 
 
-```
->>> analyse attributes compatibility
+```bash
+>>> exec -report attributes compatibility
 
 ---- Individual attribute compatibility ----
 
@@ -80,7 +80,7 @@ Selfishness - 10.23%
 Curiosity - 0.27%
 
 Conclusion: Subject incompatible with Curiosity.
-Suggestion: Decrease Compassion and Obedience by twenty percent. Increase Selfishness by  fifteen percent.
+Suggestion: Decrease Compassion and Obedience by twenty percent. Increase Selfishness by fifteen percent.
 ```
 
 “GOD DAMN IT!”
@@ -89,8 +89,10 @@ Mr. Joe rams his fist into the wall, once, twice, thrice, … His knuckles start
 
 At punch number eleven, he decides to stop. He types again, hands still bloody.
 
-export -all Sims.data CuriosityProject
-quit simulation
+```bash
+>>> export -all Sims.data CuriosityProject
+>>> exit simulation
+```
 
 On the monitor, every detail of the classroom has vanished: The students, the desks, the windows. The remains are a frozen Tim, the antfarm, and the bookshelf.
 
