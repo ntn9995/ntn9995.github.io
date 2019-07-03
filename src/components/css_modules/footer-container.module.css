@@ -6,11 +6,19 @@
     --main-font-size: 3.2rem;
     width: 40%;
     margin: 9.2rem auto 3.2rem auto;
+    text-align: center
 }
 
 .footerLink {
     font-size: var(--main-font-size);
     color: var(--main-color)
+}
+
+.footerIconCredit, .footerIconCredit a{
+    font-size: 1.4rem;
+    color: slategrey;
+    text-decoration: none;
+    text-align: center
 }
 
 .footerLink a {

@@ -23,6 +23,18 @@ module.exports = {
           `gatsby-remark-prismjs`,
         ]  
       }
+    },
+    {
+      resolve:`gatsby-plugin-manifest`,
+      options: {
+        name: `NgocNguyen`,
+        short_name: `Ngoc`,
+        start_url: `/`,
+        background_color: `#403f47`,
+        theme_color: `#403f47`,
+        display: `standalone`,
+        icon: `src/images/icon.png`
+      }
     }
   ]
 }
