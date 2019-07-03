@@ -1,6 +1,5 @@
 import React from "react"
 import Layout from "../components/layout"
-import { layer } from "@fortawesome/fontawesome-svg-core";
 
 export default () => (
     <Layout>
