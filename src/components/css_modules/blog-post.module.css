@@ -1,0 +1,29 @@
+.postTitle h1 {
+    color: #9b9ff3;
+    font-size: 4.8rem;
+    font-weight: normal;
+}
+
+.postTitle .date {
+    color: #70bcff;
+    font-size: 1.8rem;
+    margin: auto 0;
+}
+
+.postBody {
+    padding: 0.4rem 1.6rem 0.2rem 0;
+}
+
+.postBody p {
+    font-size: 2rem;
+    margin: 3.2rem 0
+}
+
+.postBody code {
+    font-size: 1.6rem;
+}
+
+.postBody br {
+    display: block;
+    margin: 0.2rem 0;
+}

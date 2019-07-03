@@ -2,7 +2,7 @@
 * Add back the container background-color, border-radius, padding, margin
 * and overflow that we removed from <pre>.
 */
-.gatsby-highlight {
+.about .gatsby-highlight {
     border-radius: 0.3em;
     margin: 0 0;
     overflow: auto;
@@ -15,7 +15,7 @@
 * 2. Always fill the visible space in .gatsby-highlight.
 * 3. Adjust the position of the line numbers
 */
-.gatsby-highlight pre[class*="language-"] {
+.about .gatsby-highlight pre[class*="language-"] {
     background-color: transparent;
     margin: 0;
     padding: 0;

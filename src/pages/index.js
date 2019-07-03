@@ -7,9 +7,11 @@ export default ({data}) => {
     return (
         <Layout>
             <About>
-                {data.allMarkdownRemark.edges.map(({node}) => (
-                    <div key ={node.id} dangerouslySetInnerHTML={{__html: node.html}}/>
-                ))}    
+                <div className="about">
+                    {data.allMarkdownRemark.edges.map(({node}) => (
+                        <div key ={node.id} dangerouslySetInnerHTML={{__html: node.html}}/>
+                    ))}   
+                </div>
             </About>
         </Layout>
     )
